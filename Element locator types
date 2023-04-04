@@ -1,0 +1,24 @@
+Locator Types:
+
+1. by ID - unique and most efficent and fastest way to locate an element
+
+2. by Name - if no ID then another preffered name
+
+3. by CSS Selector - works the best when we dont have ID or Name
+
+4. by XPath - DOM structure, there can be various XPaths to locate an element
+
+5. by Class - matches the value specified by Class
+
+6. by TageName - this locator is to find an element matching a specified Tag Name
+
+7. by LinkText - easy to locate, need to verify that link is unique
+
+----------------------------------------------------------------------
+Locating elements for Search object
+
+
+tag #id -> $$('twotabsearchtextbox')
+tag .class -> $$('nav-input nav-progressive-attribute') (can use > for child)
+tag CSS -> $$('#twotabsearchtextbox')
+tag XPath -> $x('//*[@id="twotabsearchtextbox"]')
